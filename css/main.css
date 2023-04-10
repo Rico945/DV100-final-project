@@ -1,0 +1,368 @@
+html, body, .container-fluid{
+    padding: 0;
+    margin: 0;
+    background-color: #090909;
+}
+
+nav{
+    background-color: #2b2b2b;
+    width: 100%;
+    height: 65px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5px;
+    color: #f7f7f7;
+}
+
+nav img{
+    width: 150px;
+    height: 45px;
+    margin-top: 5px;
+}
+
+.logo{
+    float: left;
+}
+
+.nav-con{
+    width: 1000px;
+    height: 50px;
+    float: right;
+    margin-top: 12px;
+}
+
+.nav-con ul{
+    list-style: none;
+}
+
+.nav-con li{
+    float: left;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 2px;
+}
+
+.nav-button{
+    background-color: #2b2b2b;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.search-bar{
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    background: none;
+    opacity: 50%;
+    color: white;
+    border: solid pink;
+    padding-bottom: 5px;
+}
+
+header{
+    width: 100%;
+    height: 800px;
+    color: white;
+    background-image: url(../assets/CoverImage/Twice_Cover_image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay{
+    width: 100%;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 280px;
+    padding-left: 10%;
+}
+
+.play-button{
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: pink;
+    color: darkmagenta;
+    border: none;
+}
+
+.play-button:hover{
+    cursor: pointer;
+    background: none;
+    color: white;
+    border: 2px solid pink;
+}
+
+.shuffle-button{
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    background: none;
+    border: 2px solid pink;
+    color: white;
+    margin-left: 20px;
+}
+
+.shuffle-button:hover{
+    cursor: pointer;
+    background-color: pink;
+    color: darkmagenta;
+    border: none;
+}
+
+.save-button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(../assets/Icons/heart_icon.svg) !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background: none;
+    margin-left: 20px;
+    border: none;
+}
+
+.video{
+    float: right;
+}
+
+.featured{
+    width: 75%;
+    height: 500px;
+    background-color: #2b2b2b;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.left-right{
+    float: right;
+    margin-top: 20%;
+}
+
+.left{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url(../assets/Icons/left_arrow_icon.svg) !important;
+    background-size: cover !important;
+    background-position: center !important;
+    border: none;
+    background: none;
+}
+
+.right{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url(../assets/Icons/right_arrow_icon.svg) !important;
+    background-size: cover !important;
+    background-position: center !important;
+    border: none;
+    background: none;
+    margin-left: 10px;
+}
+
+.album-header{
+    color: #f7f7f7;
+    padding-left: 100px;
+    padding-bottom: 30px;
+}
+
+.box{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+
+.album1{
+    width: 250px;
+    height: 250px;
+    background-image: url(../assets/MyAlbumCovers/expergo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.album2{
+    width: 250px;
+    height: 250px;
+    background-image: url(../assets/MyAlbumCovers/ready_to_be.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.album3{
+    width: 250px;
+    height: 250px;
+    background-image: url(../assets/MyAlbumCovers/born_pink.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.album4{
+    width: 250px;
+    height: 250px;
+    background-image: url(../assets/MyAlbumCovers/me.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.album5{
+    width: 250px;
+    height: 250px;
+    background-image: url(../assets/MyAlbumCovers/[&].jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.album6{
+    width: 250px;
+    height: 250px;
+    background-image: url(../assets/MyAlbumCovers/everglow.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.album7{
+    width: 250px;
+    height: 250px;
+    background-image: url(../assets/MyAlbumCovers/guess_who.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.album8{
+    width: 250px;
+    height: 250px;
+    background-image: url(../assets/MyAlbumCovers/i_never_die.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.album9{
+    width: 250px;
+    height: 250px;
+    background-image: url(../assets/MyAlbumCovers/lalisa.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.album10{
+    width: 250px;
+    height: 250px;
+    background-image: url(../assets/MyAlbumCovers/oneiric_diary.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.album11{
+    width: 250px;
+    height: 250px;
+    background-image: url(../assets/MyAlbumCovers/r.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.album12{
+    width: 250px;
+    height: 250px;
+    background-image: url(../assets/MyAlbumCovers/solo.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.album-overlay{
+    width: 250px;
+    height: 170px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 80px;
+    opacity: 0;
+}
+
+.album-overlay:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.play{
+    width: 60px;
+    height: 60px;
+    background-color: crimson;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.content{
+    width: 225px;
+    height: 51px;
+    background-color: crimson;
+    color: white;
+    padding-left: 25px;
+    padding-top: 50px;
+}
+
+.content h3, p{
+    margin: 0;
+}
+
+footer{
+    background-color: pink;
+    width: 100%;
+    height: 65px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.footer-buttons{
+    float: right;
+}
+
+.youtube{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url(../assets/Icons/Icons-20230405T233836Z-001/Icons/social/youtube_icon.svg) !important;
+    background-size: cover !important;
+    background-position: center !important;
+    border: none;
+    background: none;
+}
+
+.facebook{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url(../assets/Icons/Icons-20230405T233836Z-001/Icons/social/facebook_icon.svg) !important;
+    background-size: cover !important;
+    background-position: center !important;
+    border: none;
+    background: none;
+}
+
+.twitter{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url(../assets/Icons/Icons-20230405T233836Z-001/Icons/social/twitter_icon.svg) !important;
+    background-size: cover !important;
+    background-position: center !important;
+    border: none;
+    background: none;
+}
+
+.instagram{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url(../assets/Icons/Icons-20230405T233836Z-001/Icons/social/instagram_icon.svg) !important;
+    background-size: cover !important;
+    background-position: center !important;
+    border: none;
+    background: none;
+}
