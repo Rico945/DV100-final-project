@@ -366,3 +366,53 @@ footer{
     border: none;
     background: none;
 }
+
+.ignore{
+    opacity: 0;
+}
+
+.about-left{
+    background-color: pink;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.email-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url(../assets/Icons/Icons-20230405T233836Z-001/Icons/contact/email_icon.svg) !important;
+    background-size: cover !important;
+    background-position: center !important;
+    border: none;
+    background: none;
+}
+
+.phone-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url(../assets/Icons/Icons-20230405T233836Z-001/Icons/contact/phone_icon.svg) !important;
+    background-size: cover !important;
+    background-position: center !important;
+    border: none;
+    background: none;
+}
+
+.about-right{
+    background-color: #2b2b2b;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.name, .email, .select, .textarea{
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: #090909;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
