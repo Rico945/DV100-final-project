@@ -416,3 +416,78 @@ footer{
     border-radius: 5px;
     margin-bottom: 20px;
 }
+
+.my-playlists{
+    color: white;
+}
+
+.playlist-image{
+    width: 500px;
+    height: 500px;
+    background-image: url(../assets/AlbumCovers/my_favourite_mix_album_cover.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.logo-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url(../assets/Icons/Logo-20230405T233814Z-001/Logo/stream_small_logo_white.svg) !important;
+    background-size: cover !important;
+    background-position: center !important;
+    border: none;
+    background: none;
+    margin-left: 47%;
+    margin-top: 25%;
+}
+
+.playlist-right{
+    color: white;
+}
+
+.player-line{
+    width: 90%;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.line{
+    width: 100%;
+    height: 5px;
+    background-color: lightgrey;
+}
+
+.inner-line{
+    width: 50%;
+    height: 5px;
+    background-color: pink;
+}
+
+.marker{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: pink;
+    margin: 0 auto;
+    margin-top: -12px;
+}
+
+.song{
+    margin-left: 20px;
+    color: white;
+}
+
+.song-cover{
+    width: 100px;
+    height: 100px;
+    background-image: url(../assets/MyAlbumCovers/hype_boy.jpg);
+    background-position: center;
+    background-size: cover;
+}
